@@ -143,8 +143,63 @@ nav {
 	color:white;
 	border-color: #105296;
 }
+
 .button-active:hover {
 	background-color: #1a7de6;
 	color: white;
 	text-decoration: none;
+}
+
+.content {
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 50px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.content-button {
+	font-size: 20px;
+}
+
+.intro {
+	display: block;
+	margin: 0 auto;
+}
+
+#splash {
+	display: block;
+	width: 673px;
+	height: 333px;
+	margin: 50px auto 20px auto;
+}
+
+h2 {
+	max-width:680px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: .3em;
+	margin-top: 1.25em;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+}
+
+.content p {
+	margin-bottom: 1em;
+	text-align: left;
+	max-width:680px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.25em;
+	line-height: 1.35em;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.45em;
 }
