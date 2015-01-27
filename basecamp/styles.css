@@ -1,3 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+
 body{
   /* rules go here */
+}
+
+nav {
+	margin-top: 20px;
+	position: relative;
+}
+
+.nav-links{
+	display: block;
+	padding: 10px;
+	float: right;
+}
+.nav-bound-box{
+	display: inline;
+	text-align: center;
+	padding: 4px;
+}
+
+.logo-div {
+	width: 160px;
+
+}
+
+.logo {
+	background: url(https://d1pqgpjinf0thr.cloudfront.net/assets/general/basecamp-a3c9e389acdeba3ac2bd084d0ce0462b.png) 0 0 no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	background-size: 160px 37px;
+	left: .75em;
+	padding-top: 37px;
+	margin-left: 40px;
+	width: 160px;
+}
+
+.button {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #999;
+	border-bottom-width: 3px;
+	font-size: .9em;
+	font-weight: bold;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+.button-active {
+	background-color: #06C;
+	color:white;
+	border-color: #105296;
+}
+.button-active:hover {
+	background-color: #1a7de6;
+	color: white;
+	text-decoration: none;
 }
