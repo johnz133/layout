@@ -1,250 +1,328 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
-*/
+  */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
 
 
 /*
   ========================================
   Grid
   ========================================
-*/
+  */
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  *,
+  *:before,
+  *:after {
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  }
 
 /*
   ========================================
   Clearfix
   ========================================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
+  */
+  .group:before,
+  .group:after {
+  	content: "";
+  	display: table;
+  }
+  .group:after {
+  	clear: both;
+  }
+  .group {
+  	clear: both;
+  	*zoom: 1;
+  }
 
-.container {
-  margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 960px;
-}
+  .container {
+  	margin: 0 auto;
+  	padding-left: 30px;
+  	padding-right: 30px;
+  	width: 960px;
+  }
 
-body{
-	font-family: Arial, Helvetica, sans-serif;
+  body{
+  	font-family: Arial, Helvetica, sans-serif;
 
-}
+  }
 
-.circle{
-	border-radius: 50%;
-	border-width: 3px;
-	border-color: black;
-	border-style: solid;
-	width: 34px;
-	height: 34px;
-}
+  .circle{
+  	border-radius: 50%;
+  	border-width: 3px;
+  	border-color: black;
+  	border-style: solid;
+  	width: 34px;
+  	height: 34px;
+  }
 
-.left-circle{
-	position: absolute;
-	left: 25px;
-	top: 25px;
-}
+  .left-circle{
+  	position: absolute;
+  	left: 25px;
+  	top: 25px;
+  }
 
-.right-circle{
-	position: absolute;
-	right:25px;
-	top: 25px;
-	background-color: black;
-}
+  .right-circle{
+  	position: absolute;
+  	right:25px;
+  	top: 25px;
+  	background-color: black;
+  }
 
-#logo{
-	display: block;
-	margin: 150px auto 0 auto;
-}
+  #logo{
+  	display: block;
+  	margin: 150px auto 0 auto;
+  }
 
-header h2 {
-	text-transform: uppercase;
-	font-size: 30px;
-	line-height: 38px;
-	font-weight: 900;
-	color:#FF0042;
-	padding: 0;
-	padding-left: 10px;
-	padding-right: 10px;
-	max-width: 500px;
-	margin: 0 auto;
-	margin-bottom: 5px;
-	margin-top: 10px;
-	text-align: center;
-}
+  header h2 {
+  	text-transform: uppercase;
+  	font-size: 30px;
+  	line-height: 38px;
+  	font-weight: 900;
+  	color:#FF0042;
+  	padding: 0;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	max-width: 500px;
+  	margin: 0 auto;
+  	margin-bottom: 5px;
+  	margin-top: 10px;
+  	text-align: center;
+  }
 
-header h3 {
-	font-size: 20px;
-	line-height: 26px;
-	color: #6e6e6e;
-	max-width: 450px;
-	margin: 0 auto;
-	margin-bottom: 55px;
-	margin-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: center;
-}
-#links{
-	clear: both;
-	display: block;
-	text-align: center;
-}
+  header h3 {
+  	font-size: 20px;
+  	line-height: 26px;
+  	color: #6e6e6e;
+  	max-width: 450px;
+  	margin: 0 auto;
+  	margin-bottom: 55px;
+  	margin-top: 5px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	text-align: center;
+  }
+  #links{
+  	clear: both;
+  	display: block;
+  	text-align: center;
+  }
 
-#links li {
-	display: inline-block;
-	margin-right: 5px;
-	margin-left: 5px;
-	margin-bottom: 10px;
-}
+  #links li {
+  	display: inline-block;
+  	margin-right: 5px;
+  	margin-left: 5px;
+  	margin-bottom: 10px;
+  }
 
-header a {
-	display: inline-block;
-	border: 1px solid #e4e4e4;
-	padding: 4px 18px 4px 18px;
-	border-radius: 30px;
-	text-decoration: none;
-	line-height: 20px;
-	color: #8c8c8c;
-	font-size: 14px;
-}
+  header a {
+  	display: inline-block;
+  	border: 1px solid #e4e4e4;
+  	padding: 4px 18px 4px 18px;
+  	border-radius: 30px;
+  	text-decoration: none;
+  	line-height: 20px;
+  	color: #8c8c8c;
+  	font-size: 14px;
+  }
 
-header a:hover{
-	background-color: #FF0042;
-	border-color: #FF0042;
-	color: #fff;
-}
+  header a:hover{
+  	background-color: #FF0042;
+  	border-color: #FF0042;
+  	color: #fff;
+  }
 
-h6 {
-	color: #FF0042;
-	font-weight: 900;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 10px;
-	max-width: 600px;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-transform: uppercase;
-}
+  h6 {
+  	color: #FF0042;
+  	font-weight: 900;
+  	margin: 0 auto;
+  	margin-top: 40px;
+  	margin-bottom: 10px;
+  	max-width: 600px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	text-transform: uppercase;
+  }
 
-article {
-	border-bottom: 2px solid #e1e1e1;
+  article {
+  	border-bottom: 2px solid #e1e1e1;
 
-}
-article h1{
-	font-size: 40px;
-	font-weight: bold;
-	line-height: 35px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 0 auto 15px auto;
-	border: 0px;
-	max-width: 600px;
-	display: block;
-}
+  }
+  article h1{
+  	font-size: 40px;
+  	font-weight: bold;
+  	line-height: 35px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	margin: 0 auto 15px auto;
+  	border: 0px;
+  	max-width: 600px;
+  	display: block;
+  }
 
-article a{
-	text-decoration: none;
-	color: #000;
-	outline: 0;
-}
+  article a{
+  	text-decoration: none;
+  	color: #000;
+  	outline: 0;
+  }
 
-article p {
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	max-width: 600px;
-	font-size: 18px;
-	line-height: 1.5;
-	color: #4D4D4D;
-}
+  article p {
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	margin: 0 auto;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	max-width: 600px;
+  	font-size: 18px;
+  	line-height: 1.5;
+  	color: #4D4D4D;
+  }
 
-article .button {
-	border-bottom: 2px solid #e1e1e1;
-	display: inline-block;
-	font-size: 15px;
-	line-height: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-color: rgb(228, 228, 228);
-	border-radius: 30px;
-	border-style: solid;
-	border-width: 1px;
+  .button {
+  	border-bottom: 2px solid #e1e1e1;
+  	display: inline-block;
+  	font-size: 15px;
+  	line-height: 30px;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	border-color: rgb(228, 228, 228);
+  	border-radius: 30px;
+  	border-style: solid;
+  	border-width: 1px;
 
-	color: rgb(118, 118, 118);
-}
+  	color: rgb(118, 118, 118);
+  }
 
-.article-date{
-	color:rgba(0,0,0,.1);
-	font-weight: 700;
-	margin-bottom: 0;
-	font-size: 12px;
-}
-article .button:hover {
-	background-color: #FF0042;
-	border-color: #FF0042;
-	color: white;
-}
+  .article-date{
+  	color:rgba(0,0,0,.1);
+  	font-weight: 700;
+  	margin-bottom: 0;
+  	font-size: 12px;
+  }
+  .button:hover {
+  	background-color: #FF0042;
+  	border-color: #FF0042;
+  	color: white;
+  }
+
+  #subscribe-title{
+  	max-width: 600px;
+  	margin: 0 auto;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	font-weight: 900;
+  	text-transform: uppercase;
+  	color: #000;
+  	font-size: 15px;
+  	margin-top: 40px;
+  	margin-bottom: 10px;
+  }
+
+  #subscribe {
+  	display: block;
+  	margin: 0 auto;
+  	margin-bottom: 30px;
+  	width: 700px;
+  	height: 70px;
+  }
+
+  #subscribe input{
+  	float: left;
+  	display: block;
+  	width: 320px;
+  	height: 30px;
+  	text-align: center;
+  	border: 1px solid #e4e4e4;
+  	border-radius: 80px;
+  	position: relative;
+  }
+
+  #subscribe p{
+  	display: inline-block;
+  	float: left;
+  	font-size: 14px;
+  	line-height: 20px;
+  	margin-top: 0px;
+  	margin-left: 20px;
+  	color: #989898;
+  }
+
+  footer {
+  	border-top: 2px solid #e1e1e1;
+  	padding-top: 14px;
+  }
+  footer a {
+  	display: inline-block;
+  	border: 1px solid #e4e4e4;
+  	padding: 4px 18px 4px 18px;
+  	border-radius: 30px;
+  	text-decoration: none;
+  	line-height: 20px;
+  	border-color: transparent;
+  	color: #8c8c8c;
+  	font-size: 14px;
+  }
+
+  footer h5 {
+  	font-size: 20px;
+  	font-weight: bold;
+  	line-height: 25px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	border: 0px;
+  	max-width: 600px;
+  	display: block;	
+  	color: #FF0042;
+  }
+  footer #links{
+  	float: right;
+  }
+  footer a:hover{
+  	background-color: #FF0042;
+  	border-color: #FF0042;
+  	color: #fff;
+  }
