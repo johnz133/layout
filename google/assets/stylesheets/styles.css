@@ -48,6 +48,79 @@ table {
 
 /* google layout start */
 
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
 body {
   /* rules go here */
+}
+
+header {
+
+  text-align: right;
+  background: rgba(0,0,0,.1)
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 44px;
+}
+
+img {
+  display: block;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-top: 0;
+}
+
+#logo {
+  margin: 112px auto 0 auto;
+  height: 95px;
+  width: 269px;
+}
+
+#search {
+  margin-top: 20px;
+  width: 400px;
 }
