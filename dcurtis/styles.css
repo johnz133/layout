@@ -175,3 +175,76 @@ header a:hover{
 	border-color: #FF0042;
 	color: #fff;
 }
+
+h6 {
+	color: #FF0042;
+	font-weight: 900;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	max-width: 600px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+article {
+	border-bottom: 2px solid #e1e1e1;
+
+}
+article h1{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto 15px auto;
+	border: 0px;
+	max-width: 600px;
+	display: block;
+}
+
+article a{
+	text-decoration: none;
+	color: #000;
+	outline: 0;
+}
+
+article p {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 600px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #4D4D4D;
+}
+
+article .button {
+	border-bottom: 2px solid #e1e1e1;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-color: rgb(228, 228, 228);
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 1px;
+
+	color: rgb(118, 118, 118);
+}
+
+.article-date{
+	color:rgba(0,0,0,.1);
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+article .button:hover {
+	background-color: #FF0042;
+	border-color: #FF0042;
+	color: white;
+}
